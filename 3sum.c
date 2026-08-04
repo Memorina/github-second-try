@@ -1,5 +1,5 @@
-int cmp(const void *a,const void *b){
-    return (*(int*)a-*(int*)b);
+int cmp(const void *a,const void *x){
+    return (*(int*)a-*(int*)x);
 }
 
 int threeSumClosest(int* nums,int numsSize,int target){
